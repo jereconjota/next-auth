@@ -1,6 +1,6 @@
 import { getSession } from 'next-auth/react';
 
-function index({ session }) {
+function FromBack({ session }) {
   const { user } = session
 
   return (
@@ -22,4 +22,4 @@ export const getServerSideProps = async (context) => {
   }
 }
 
-export default index
+export default FromBack

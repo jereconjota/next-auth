@@ -1,7 +1,7 @@
 import { getSession } from 'next-auth/react'
 import { useEffect, useState } from 'react'
 
-function index() {
+function FromFront() {
 
   const [user, setUser] = useState(null)
 
@@ -24,4 +24,4 @@ function index() {
   )
 }
 
-export default index
+export default FromFront
