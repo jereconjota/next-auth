@@ -11,6 +11,8 @@ En las rutas `/get-logged-user/...` hay ejemplos que usan *getSession* para obte
 
 En el archivo `api/auth/[...nextauth].js` definimos los providers que queremos utilizar para realizar el login, en este ejemplo use github pero tenemos muchas opciones.
 
+Podemos tambien restringir a usuarios logueados los endpoints del directorio `/api/...` obteniendo la sesion con la misma funcion *getSession*
+
 
 Docs
 [https://next-auth.js.org/getting-started/client](https://next-auth.js.org/getting-started/client)
@@ -19,7 +21,7 @@ Docs
 
 
 
-## Deploy on Vercel
+### Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
