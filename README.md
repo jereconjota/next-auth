@@ -15,8 +15,10 @@ Podemos tambien restringir a usuarios logueados los endpoints del directorio `/a
 
 
 Docs
+
 [https://next-auth.js.org/getting-started/client](https://next-auth.js.org/getting-started/client)
-[GithubProvider](https://next-auth.js.org/providers/github)
+
+[https://next-auth.js.org/providers/github](https://next-auth.js.org/providers/github)
 
 
 
