@@ -1,4 +1,4 @@
-## Ejemplo NextAuth.js
+## NextAuth.js
 
 Usando los metodos de la Client API de NextAuth.js, se puede obtener la sesion de usuario tanto desde el front como desde el backend con getServerSideProps o bien desde el directorio api.
 
