@@ -19,7 +19,7 @@ function FromFront() {
 
   return (
     <div>
-      {JSON.stringify(user)}
+      {user ? JSON.stringify(user) : 'Loading...'}
     </div>
   )
 }

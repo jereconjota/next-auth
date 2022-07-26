@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router'
 import { useSession, signIn } from 'next-auth/react'
-const login = () => {
+
+const Login = () => {
     const router = useRouter()
 
     const {data: session, status} = useSession()
@@ -19,4 +20,4 @@ const login = () => {
     )
 }
 
-export default login
+export default Login
